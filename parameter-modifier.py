@@ -135,10 +135,10 @@ class ParameterModifier():
                     self.list_parameters()
                     self.select_parameter()
                     self.modify_parameter()
-                    ask_user2 = input(f"\n Do you whis to change another parameter from '{self.selected_node}'? (y/n)")
+                    ask_user2 = input(f"\n Do you wish to change another parameter from '{self.selected_node}'? (y/n)")
                     if ask_user2.lower() != "y":
                         parm = False
-                ask_user3 = input("\n Do you whis to continue using the progrm? (y/n)")
+                ask_user3 = input("\n Do you wish to continue using the progrm? (y/n)")
                 if ask_user3.lower() != "y":
                     run = False
             self.save_hip_file()
